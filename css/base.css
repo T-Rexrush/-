@@ -1,0 +1,175 @@
+*{ margin: 0; padding: 0;}
+.top{text-align: center;line-height: 40px;padding-top: 10px;background-color: #18BEBE;}
+.ct-list {float:left;}
+.close-ct{float: right;}
+.ct {height:60px;padding-left:10px;text-align:center;float:left;}
+.ct-now {line-height: 50px;text-align:center;font-size:16px;float:left;letter-spacing:3px;color:black;}
+.ct-box {text-align:center;}
+.ct-box span {vertical-align:bottom;}
+.ct-nav {text-align:center;line-height:50px;color:#333;cursor:pointer;overflow:hidden;display:inline-block;padding-right:150px;}
+.ct-link {background:#FFFFFF;border:#18BEBE 2px solid;width:305px;display:none;z-index:9999;}
+.ct-hovers {display:block;position:absolute;}
+.ct-links {width:60px;margin-right:1px;height:30px;line-height:30px;font-size:13px;text-align:center;color: black;background:#f6f6f6;vertical-align:top;margin-bottom:1px;display:inline-block;text-decoration: none;}
+.ct-show {background:#ccc;height:18px;line-height:18px;padding:5px;cursor:pointer;}
+.nav-a,.catalog-a,.pg-a,.about{text-decoration: none;display: block;color: black;}
+.submit-a{text-decoration: none;display: block;color:white}
+.nav,.catalog,.pagelist{list-style: none;overflow: hidden; text-align: center;background:whitesmoke;height: 50px;}
+.nav-li,.catalog-li,.catalog-li2,.catalog-gt,.pg,.num,.submit{float:left;line-height: 50px;width:100px;text-align:center;}
+a:hover{color:gainsboro;background-color: #18BEBE}
+.img-location,.img-adm{float:left;line-height: 50px;text-align:center;padding-top: 3px;padding-left: 200px;}
+.img-adm{margin-left: -15px;}
+.content{margin-left: auto;margin-right: auto;width: 1000px;}
+.catalog{background:white;}
+.catalog-gt{width:20px;}
+.catalog-li{width:50px;}
+.box {
+    width: 1000px;
+    background: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+.box dl {
+    height: 25px;
+    line-height: 25px;
+    margin: 10px 20px;
+}
+.box dt {
+    float: left;
+    margin-top: 2px;
+    color:#18BEBE;
+}
+.box dd {
+    float: left;
+    color: #252525;
+    margin: 0 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid whitesmoke;
+}
+.menu {
+    width: 1000px;
+    height: 50px;
+    margin: 20px 0;
+    background: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+.select {
+    margin:15px 10px;
+    float:left;
+}
+.search-box {
+    margin:15px 10px;
+    float:left;
+    position:relative;
+}
+.question {
+    margin-top: 15px; 
+    margin-left: 150px;
+    float:left;
+}
+.know {
+    margin-top: 13px;
+    float:left;
+    color: turquoise;
+}
+.button-img{
+    border:none;
+    cursor: pointer;
+    width:24px;
+    height:24px;
+    display: block;
+    z-index: 100;
+    position:absolute;
+    top:50%;
+    margin-top:-6px;
+    right:28px;
+    background:url(../images/search.png) no-repeat;
+}
+.search-button{
+    position: absolute;
+    right: 5px;
+    top:4px;
+    border:none;
+    background-color: white;
+}
+.search{
+    position: relative;
+    margin-left: 50px;
+    text-align: left;
+    padding-left:10px;
+    width: 200px;
+}
+.parent{width:1000px;overflow: hidden;margin-left:auto;margin-right: auto}
+.parent>div{width:238px;border:1px solid #dedede;height:344px;float:left;background-color: whitesmoke;}
+.child{margin-right:13px; margin-bottom:10px;background-color: whitesmoke;}
+.lastchild{margin-left:1px;}
+.lastchild:hover p{color:#ffa700;}
+.child:hover p{color:#ffa700;}
+.data{
+    padding:10px 15px 0px;
+}
+p{
+    padding:3px 15px;
+}
+.grade{
+    color:turquoise;
+}
+span{
+    font-weight: bold;
+}
+.page{
+    width:100px;
+    height:25px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 0px;
+    float:left;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+.pgnum{
+    width:25px;
+    height:25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: solid 2px;
+    text-align: center;
+}
+.pagebox{
+    float:left;line-height: 50px;width:200px;text-align:center;margin-left: 50px;margin-right: 50px;
+}
+.submit{
+    background-color:#ffa700;
+    line-height: 30px;
+    height:30px;
+    margin-top: 10px;
+    width: 60px;
+}
+.pagelist{background:white;}
+.pg{background-color: whitesmoke;line-height: 30px;height:30px;margin-top: 10px;}
+.num{width:20px;padding-left: 10px;}
+.pg-a:hover{color: #ffa700;background-color: unset;text-decoration: underline;}
+#one{margin-left: 20px;}
+#five{margin-right: 20px;}
+.contact{float:left}
+.small-weixin{float:left;margin-top: 15px;}
+.feedback{margin:20px 14px 5px;color: turquoise;}
+.bottom{
+    margin-top: 120px;
+    background-color: #515151;
+    color:white;
+}
+.bottom-content{margin-left: auto;margin-right: auto;width: 1000px;}
+.Logo{float: left;margin-bottom: 20px;}
+.footerLogo{padding:10px 15px;}
+h5{margin:10px 14px 5px;}
+hr{margin-top: 20px;margin-bottom: 10px;}
+.copyright{float: right; font-weight: unset;}
+.about{color:white;width:80px;text-align: center;margin: 15px 0px;}
+.about-us{float: left;margin: 30px;}
+.statement{float: left;margin: 30px;}
+.imgs{float: left;margin: 30px -25px auto 100px;}
+.market{float: left;margin: 30px;}
+.weixin{margin: 15px 0px 0px;max-width:100%;}
+.tianmao{margin: 8px 0px 0px;max-width:100%;}
+.shop{margin: 8px 0px 0px;max-width:100%;}
+.ltd{padding-bottom: 10px;}
