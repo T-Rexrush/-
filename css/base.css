@@ -14,11 +14,13 @@
 .nav-a,.catalog-a,.pg-a,.about{text-decoration: none;display: block;color: black;}
 .submit-a{text-decoration: none;display: block;color:white}
 .nav,.catalog,.pagelist{list-style: none;overflow: hidden; text-align: center;background:whitesmoke;height: 50px;}
+.nav,.top,.bottom{width:1287px}
 .nav-li,.catalog-li,.catalog-li2,.catalog-gt,.pg,.num,.submit{float:left;line-height: 50px;width:100px;text-align:center;}
 a:hover{color:gainsboro;background-color: #18BEBE}
-.img-location,.img-adm{float:left;line-height: 50px;text-align:center;padding-top: 3px;padding-left: 200px;}
+.img-adm{float:left;line-height: 50px;text-align:center;padding-top: 3px;padding-left: 200px;}
+.img-location{float:left;line-height: 50px;text-align:center;padding-top: 3px;padding-left: 170px;}
 .img-adm{margin-left: -15px;}
-.content{margin-left: auto;margin-right: auto;width: 1000px;}
+.content{margin-left: 143px;width: 1000px;}
 .catalog{background:white;}
 .catalog-gt{width:20px;}
 .catalog-li{width:50px;}
@@ -83,6 +85,7 @@ a:hover{color:gainsboro;background-color: #18BEBE}
     margin-top:-6px;
     right:28px;
     background:url(../images/search.png) no-repeat;
+    outline: none;
 }
 .search-button{
     position: absolute;
@@ -90,6 +93,7 @@ a:hover{color:gainsboro;background-color: #18BEBE}
     top:4px;
     border:none;
     background-color: white;
+    outline: none;
 }
 .search{
     position: relative;
@@ -97,6 +101,7 @@ a:hover{color:gainsboro;background-color: #18BEBE}
     text-align: left;
     padding-left:10px;
     width: 200px;
+    outline: none;
 }
 .parent{width:1000px;overflow: hidden;margin-left:auto;margin-right: auto}
 .parent>div{width:238px;border:1px solid #dedede;height:344px;float:left;background-color: whitesmoke;}
