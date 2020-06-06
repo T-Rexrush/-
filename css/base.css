@@ -2,11 +2,11 @@
 .top{text-align: center;line-height: 40px;padding-top: 10px;background-color: #18BEBE;}
 .ct-list {float:left;}
 .close-ct{float: right;}
-.ct {height:60px;padding-left:10px;text-align:center;float:left;}
+.ct {height:50px;padding-left:10px;text-align:center;float:left;}
 .ct-now {line-height: 50px;text-align:center;font-size:16px;float:left;letter-spacing:3px;color:black;}
 .ct-box {text-align:center;}
 .ct-box span {vertical-align:bottom;}
-.ct-nav {text-align:center;line-height:50px;color:#333;cursor:pointer;overflow:hidden;display:inline-block;padding-right:150px;}
+.ct-nav {text-align:center;line-height:50px;color:#333;cursor:pointer;overflow:hidden;display:inline-block;padding-right:180px;}
 .ct-link {background:#FFFFFF;border:#18BEBE 2px solid;width:305px;display:none;z-index:9999;}
 .ct-hovers {display:block;position:absolute;}
 .ct-links {width:60px;margin-right:1px;height:30px;line-height:30px;font-size:13px;text-align:center;color: black;background:#f6f6f6;vertical-align:top;margin-bottom:1px;display:inline-block;text-decoration: none;}
@@ -14,13 +14,13 @@
 .nav-a,.catalog-a,.pg-a,.about{text-decoration: none;display: block;color: black;}
 .submit-a{text-decoration: none;display: block;color:white}
 .nav,.catalog,.pagelist{list-style: none;overflow: hidden; text-align: center;background:whitesmoke;height: 50px;}
-.nav,.top,.bottom{width:1287px}
+.nav,.top,.bottom{width:1366px}
 .nav-li,.catalog-li,.catalog-li2,.catalog-gt,.pg,.num,.submit{float:left;line-height: 50px;width:100px;text-align:center;}
 a:hover{color:gainsboro;background-color: #18BEBE}
 .img-adm{float:left;line-height: 50px;text-align:center;padding-top: 3px;padding-left: 200px;}
-.img-location{float:left;line-height: 50px;text-align:center;padding-top: 3px;padding-left: 170px;}
+.img-location{float:left;line-height: 47px;text-align:center;padding-top: 3px;padding-left: 183px;}
 .img-adm{margin-left: -15px;}
-.content{margin-left: 143px;width: 1000px;}
+.content{margin-left: 183px;width: 1000px;}
 .catalog{background:white;}
 .catalog-gt{width:20px;}
 .catalog-li{width:50px;}
