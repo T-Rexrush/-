@@ -9,7 +9,7 @@
 .ct-now {line-height: 50px;text-align:center;font-size:16px;float:left;letter-spacing:3px;color:black;}
 .ct-box {text-align:center;}
 .ct-box span {vertical-align:bottom;}
-.ct-nav {text-align:center;line-height:50px;color:#333;cursor:pointer;overflow:hidden;display:inline-block;padding-right:180px;}
+.ct-nav {text-align:center;line-height:50px;color:#333;cursor:pointer;overflow:hidden;display:inline-block;padding-right:170px;}
 .ct-link {background:#FFFFFF;border:#18BEBE 2px solid;width:305px;display:none;z-index:9999;}
 .ct-hovers {display:block;position:absolute;}
 .ct-links {width:60px;margin-right:1px;height:30px;line-height:30px;font-size:13px;text-align:center;color: black;background:#f6f6f6;vertical-align:top;margin-bottom:1px;display:inline-block;text-decoration: none;}
@@ -17,11 +17,11 @@
 .nav-a,.catalog-a,.pg-a,.about{text-decoration: none;display: block;color: black;}
 .submit-a{text-decoration: none;display: block;color:white}
 .nav,.catalog,.pagelist{list-style: none;overflow: hidden; text-align: center;background:whitesmoke;height: 50px;}
-.nav-box,.top,.bottom,.content-box{min-width:1300px}
+.nav-box,.top,.bottom,.content-box{min-width:1200px}
 .nav-li,.catalog-li,.catalog-li2,.catalog-gt,.pg,.num,.submit{float:left;line-height: 50px;width:100px;text-align:center;}
 a:hover{color:gainsboro;background-color: #18BEBE}
-.img-adm{float:left;line-height: 50px;text-align:center;padding-top: 3px;padding-left: 190px;margin-left: -20px;}
-.img-location{float:left;line-height: 47px;text-align:center;padding-top: 3px;}
+.img-adm{float:left;line-height: 50px;text-align:center;padding-top: 3px;padding-left: 180px;margin-left: -20px;}
+.img-location{float:left;line-height: 47px;text-align:center;padding-top: 3px;padding-left: 20px;}
 .content{margin-left: auto;margin-right:auto;width: 1002px;}
 .catalog{background:white;}
 .catalog-gt{width:20px;}
