@@ -114,8 +114,9 @@ a:hover{color:gainsboro;background-color: #18BEBE}
 .data{
     padding:10px 15px 0px;
 }
-p{
+.parent p{
     padding:3px 15px;
+    text-align: left;
 }
 .grade{
     color:turquoise;
@@ -157,9 +158,9 @@ span{
 .pg-a:hover{color: #ffa700;background-color: unset;text-decoration: underline;}
 #one{margin-left: 20px;}
 #five{margin-right: 20px;}
-.contact{float:left}
-.small-weixin{float:left;margin-top: 15px;}
-.feedback{margin:20px 14px 5px;color: turquoise;}
+.contact{float:left;text-align: left;}
+.small-weixin{float:left;margin-top: 15px;margin-right: 10px;}
+.feedback{margin-top:20px;color: turquoise;}
 .bottom{
     margin-top: 120px;
     background-color: #515151;
