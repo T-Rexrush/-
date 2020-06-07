@@ -10,8 +10,8 @@ $(document).ready(function(){
             $(".ct-link").attr('class','ct-link');
             $("#ct-name").html($(this).html());
         });
-        $(".box dd").css("background-color","rgb(245, 245, 245)");
-        $(".box dd").css("border-color","rgb(245, 245, 245)");
+        $(".box dd").not(".indexSelect").css("background-color","rgb(245, 245, 245)");
+        $(".box dd").not(".indexSelect").css("border-color","rgb(245, 245, 245)");
         $(".box").on("click","dd",function(){  
             if($(this).css("background-color")=="rgb(245, 245, 245)" && $(this).css("border-color")=="rgb(245, 245, 245)"){
                 $(this).css("background-color","#FFFFFF")
